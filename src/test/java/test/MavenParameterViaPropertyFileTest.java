@@ -42,7 +42,7 @@ public class MavenParameterViaPropertyFileTest {
 			
 			System.setProperty("webdriver.gecko.driver","C:\\Users\\kumar\\Downloads\\geckodriver-v0.29.1-win64\\geckodriver.exe");
 			 driver=new FirefoxDriver();
-			driver.get("https://www.facebook.com");
+			driver.get("https://www.facebook.com"); 
 			
 		}
 		
